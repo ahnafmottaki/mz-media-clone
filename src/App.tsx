@@ -14,12 +14,6 @@ import { TestimonialCarousel } from "./modules/TestimonialsSection/components/Te
 
 export default function App() {
   return (
-    // <>
-    //   <Header />
-    //   <Hero />
-    //   <div className="bg-all-border flex mb-15 h-px w-full items-center justify-center flex-row"></div>
-    //   <Info />
-    // </>
     <>
       <div className="text-white/60 text-sm not-italic normal-nums font-normal accent-auto bg-neutral-950 box-border caret-transparent block tracking-[normal] leading-[22.4px] list-outside list-disc min-h-full pointer-events-auto text-start indent-0 normal-case visible border-separate font-poppins">
         <Navbar />
