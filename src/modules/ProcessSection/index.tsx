@@ -47,7 +47,7 @@ export const ProcessSection = () => {
             </div>
           </div>
         </div>
-        <div className="absolute bg-white/10 box-border caret-transparent block h-[2016px] w-px left-[41px] right-2/4 top-[10%] bottom-[0%] md:hidden md:h-[2240px] md:left-[51%] md:top-[1%]">
+        <div className="absolute  box-border caret-transparent block h-[2016px] w-px left-[41px] right-2/4 top-[10%] bottom-[0%] md:hidden md:h-[2240px] bg-white/10 md:left-[51%] md:top-[1%]">
           <div className="sticky bg-blue-800 shadow-[rgb(44,56,112)_0px_0px_10px_1px] box-border caret-transparent h-[100px] w-px rounded-[20px] top-1/4"></div>
         </div>
       </div>

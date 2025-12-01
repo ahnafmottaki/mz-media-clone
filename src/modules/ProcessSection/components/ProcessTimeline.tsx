@@ -2,7 +2,8 @@ import { ProcessStep } from "./ProcessStep";
 
 export const ProcessTimeline = () => {
   return (
-    <div className="relative box-border caret-transparent gap-x-[60px] hidden auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto_auto] justify-between min-h-0 min-w-0 gap-y-[60px] w-full pt-0 md:gap-x-20 md:flex md:auto-cols-auto md:grid-cols-none md:grid-rows-none md:min-h-auto md:min-w-auto md:gap-y-20 md:pt-[60px]">
+    <div className="relative box-border caret-transparent gap-x-[60px] hidden auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto_auto] justify-between min-h-0 min-w-0 gap-y-[60px] w-full pt-0 md:gap-x-20 xl:flex bg-red-900 md:auto-cols-auto md:grid-cols-none md:grid-rows-none md:min-h-auto md:min-w-auto md:gap-y-20 md:pt-[60px]">
+      {/*left side process and steps*/}
       <div className="items-start box-border caret-transparent gap-x-[60px] flex flex-col justify-start min-h-0 min-w-0 gap-y-[60px] md:gap-x-[140px] md:min-h-auto md:min-w-auto md:gap-y-[140px]">
         <ProcessStep
           variant="number-right-h3"
@@ -15,13 +16,13 @@ export const ProcessTimeline = () => {
           <div className="relative items-center box-border caret-transparent flex h-[300px] justify-center min-h-0 min-w-[300px] w-[400px] md:items-end md:h-auto md:min-h-auto md:min-w-[450px] md:w-[600px]">
             <div className="absolute box-border caret-transparent top-[-8%] z-6 left-[6%] md:left-[-7%] md:z-3 md:top-[23%]">
               <div className="relative items-center box-border caret-transparent gap-x-2.5 flex justify-center gap-y-2.5 top-[-6%] left-[0%]">
-                <div className="items-center box-border caret-transparent gap-x-[15px] flex justify-center min-h-0 min-w-0 gap-y-[15px] px-10 py-5 md:min-h-auto md:min-w-auto">
+                <div className="items-center box-border caret-transparent gap-x-[15px] flex justify-center min-h-0 min-w-0 gap-y-[15px] px-10 py-5 md:min-h-auto md:min-w-auto ">
                   <img
                     src="https://c.animaapp.com/mih7w1om2KrHan/assets/67b6a0fc18b1b753b873e667_tag.svg"
                     alt=""
                     className="box-border caret-transparent h-[50px] max-w-full min-h-0 min-w-0 object-cover w-[50px] md:min-h-auto md:min-w-auto"
                   />
-                  <div className="box-border caret-transparent gap-x-3 flex flex-col h-[23px] min-h-0 min-w-0 gap-y-3 overflow-hidden md:min-h-auto md:min-w-auto">
+                  {/*<div className="box-border caret-transparent gap-x-3 flex flex-col h-[23px] min-h-0 min-w-0 gap-y-3 overflow-hidden md:min-h-auto md:min-w-auto">
                     <div className="relative items-center box-border caret-transparent flex h-25px-border min-h-0 min-w-0 text-left transform-none md:min-h-auto md:min-w-auto md:translate-y-[-147.956px]">
                       <div className="text-white text-2xl box-border caret-transparent leading-[38.4px] min-h-0 min-w-0 md:min-h-auto md:min-w-auto">
                         Hook
@@ -47,8 +48,8 @@ export const ProcessTimeline = () => {
                         Hook
                       </div>
                     </div>
-                  </div>
-                  <div className="bg-white box-border caret-transparent h-[50px] min-h-0 min-w-0 w-px md:min-h-auto md:min-w-auto"></div>
+                  </div>*/}
+                  {/*<div className="bg-white box-border caret-transparent h-[50px] min-h-0 min-w-0 w-px md:min-h-auto md:min-w-auto"></div>*/}
                 </div>
                 <img
                   src="https://c.animaapp.com/mih7w1om2KrHan/assets/67b6daa5744c735ff068b073_input_box.png"
@@ -120,9 +121,10 @@ export const ProcessTimeline = () => {
           description="All thats left now is to post the video and start counting the leads that come in."
         />
       </div>
-      <div className="absolute bg-white/10 box-border caret-transparent h-[1960px] w-px left-[46px] right-2/4 top-[10%] bottom-[0%] md:h-[2240px] md:left-[51%] md:top-[1%]">
+      <div className="absolute bg-white/10 box-border caret-transparent h-[1960px] w-px left-[46px] right-2/4 top-[10%] bottom-[0%] md:h-[2240px]  md:left-[51%] md:top-[1%]">
         <div className="sticky bg-blue-800 shadow-[rgb(44,56,112)_0px_0px_10px_1px] box-border caret-transparent h-[100px] w-px rounded-[20px] top-1/4"></div>
       </div>
+      {/* Right side processes and step*/}
       <div className="items-end box-border caret-transparent gap-x-[60px] flex flex-col h-full justify-start min-h-0 min-w-0 gap-y-[60px] w-full md:gap-x-[140px] md:min-h-auto md:min-w-auto md:gap-y-[140px]">
         <ProcessStep
           variant="image-left"

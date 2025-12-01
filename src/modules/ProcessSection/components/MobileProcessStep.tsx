@@ -1,14 +1,14 @@
 export const MobileProcessSteps = () => {
   return (
-    <div className="box-border caret-transparent gap-x-[60px] flex flex-col min-h-auto min-w-auto gap-y-[60px] mt-5 md:gap-x-[50px] md:hidden md:min-h-0 md:min-w-0 md:gap-y-[50px] md:mt-0">
-      <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 mb-5 md:[align-items:normal] md:justify-normal md:min-h-0 md:min-w-0 md:mb-0">
+    <div className="box-border caret-transparent gap-x-[60px] flex flex-col min-h-auto min-w-auto gap-y-[60px] mt-5 md:gap-x-[50px] xl:hidden md:min-h-0 md:min-w-0 md:gap-y-[50px] md:mt-0">
+      <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 mb-5 md:items-center md:justify-normal md:min-h-0 md:min-w-0 md:mb-0">
         <div className="text-white text-sm items-center bg-[linear-gradient(rgb(24,25,41),rgb(2,2,5))] shadow-[rgba(86,86,229,0.2)_0px_0px_45.1px_0px] box-border caret-transparent flex h-10 justify-center leading-[22.4px] min-h-auto min-w-auto w-10 border border-gray-800 ml-0 mt-0 p-2 rounded-[100px] border-solid md:text-lg md:h-[70px] md:leading-[28.8px] md:ml-[-5px] md:min-h-0 md:min-w-0 md:w-[70px] md:mt-10 md:p-0">
           01
         </div>
-        <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-start md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
+        <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-center md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
           <div className="items-center bg-transparent bg-[radial-gradient(circle_at_50%_0%,rgba(23,23,39,0.38),rgb(9,9,9)_100%,rgb(255,255,255))] box-border caret-transparent gap-x-[15px] flex flex-col justify-end min-h-auto min-w-auto gap-y-[15px] text-center border border-zinc-900 ml-7 mb-5 p-5 rounded-[20px] border-solid md:[align-items:normal] md:bg-transparent md:bg-none md:gap-x-[normal] md:block md:flex-row md:justify-normal md:min-h-0 md:min-w-0 md:gap-y-[normal] md:text-start md:ml-0 md:mb-0 md:p-0 md:rounded-none md:border-0 md:border-none md:border-white/60">
             <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-start">
-              <div className="items-center box-border caret-transparent gap-x-[17px] flex flex-row justify-start gap-y-[17px] text-center md:items-start md:gap-x-[21px] md:flex-col md:justify-between md:gap-y-[21px] md:text-start">
+              <div className="items-center box-border caret-transparent gap-x-[17px] flex flex-row justify-start gap-y-[17px] text-center md:items-center  md:gap-x-[21px] md:flex-col md:justify-between md:gap-y-[21px] md:text-start">
                 <div className="text-xs bg-indigo-600 shadow-[rgba(0,0,0,0.12)_0px_4.433px_8.865px_0px] box-border caret-transparent hidden tracking-[-0.569px] leading-[18.6px] text-center uppercase px-[13px] py-2 rounded-[8.8px] md:text-[14.235px] md:flex md:leading-[22.0643px] md:text-start">
                   <div className="text-xs box-border caret-transparent leading-[18.6px] text-center md:text-[14.235px] md:leading-[22.0643px] md:text-start">
                     Ideation
@@ -19,8 +19,8 @@ export const MobileProcessSteps = () => {
                 </h3>
               </div>
             </div>
-            <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-start">
-              <p className="text-white/50 box-border caret-transparent leading-[20.58px] max-w-[238px] text-center w-full mb-2.5 md:text-start">
+            <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-center">
+              <p className="text-white/50 box-border caret-transparent leading-[20.58px] max-w-[238px] text-center w-full mb-2.5">
                 Generate views and sales with our expert team, who have worked
                 with the biggest creators.
               </p>
@@ -58,14 +58,14 @@ export const MobileProcessSteps = () => {
           </div>
         </div>
       </div>
-      <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 md:[align-items:normal] md:justify-normal md:min-h-0 md:min-w-0">
+      <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 md:items-center md:justify-normal md:min-h-0 md:min-w-0">
         <div className="text-white text-sm items-center bg-[linear-gradient(rgb(24,25,41),rgb(2,2,5))] shadow-[rgba(86,86,229,0.2)_0px_0px_45.1px_0px] box-border caret-transparent flex h-10 justify-center leading-[22.4px] min-h-auto min-w-auto w-10 border border-gray-800 ml-0 mt-0 p-2 rounded-[100px] border-solid md:text-lg md:h-[70px] md:leading-[28.8px] md:ml-[-5px] md:min-h-0 md:min-w-0 md:w-[70px] md:mt-10 md:p-0">
           02
         </div>
-        <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-start md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
+        <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-center md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
           <div className="items-center bg-transparent bg-[radial-gradient(circle_at_50%_0%,rgba(23,23,39,0.38),rgb(9,9,9)_100%,rgb(255,255,255))] box-border caret-transparent gap-x-[15px] flex flex-col justify-end min-h-auto min-w-auto gap-y-[15px] text-center border border-zinc-900 ml-7 mb-5 p-5 rounded-[20px] border-solid md:[align-items:normal] md:bg-transparent md:bg-none md:gap-x-[normal] md:block md:flex-row md:justify-normal md:min-h-0 md:min-w-0 md:gap-y-[normal] md:text-start md:ml-0 md:mb-0 md:p-0 md:rounded-none md:border-0 md:border-none md:border-white/60">
             <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-start">
-              <div className="items-center box-border caret-transparent gap-x-[17px] flex flex-row justify-start gap-y-[17px] text-center md:items-start md:gap-x-[21px] md:flex-col md:justify-between md:gap-y-[21px] md:text-start">
+              <div className="items-center box-border caret-transparent gap-x-[17px] flex flex-row justify-start gap-y-[17px] text-center md:items-center md:gap-x-[21px] md:flex-col md:justify-between md:gap-y-[21px] md:text-start">
                 <div className="text-xs bg-indigo-600 shadow-[rgba(0,0,0,0.12)_0px_4.433px_8.865px_0px] box-border caret-transparent hidden tracking-[-0.569px] leading-[18.6px] text-center uppercase px-[13px] py-2 rounded-[8.8px] md:text-[14.235px] md:flex md:leading-[22.0643px] md:text-start">
                   <div className="text-xs box-border caret-transparent leading-[18.6px] text-center md:text-[14.235px] md:leading-[22.0643px] md:text-start">
                     Scripting
@@ -76,8 +76,8 @@ export const MobileProcessSteps = () => {
                 </h3>
               </div>
             </div>
-            <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-start">
-              <p className="text-white/50 box-border caret-transparent leading-[20.58px] max-w-[238px] text-center w-full mb-2.5 md:text-start">
+            <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-center">
+              <p className="text-white/50 box-border caret-transparent leading-[20.58px] max-w-[238px] text-center w-full mb-2.5">
                 Generate views and sales with our expert team, who have worked
                 with the biggest creators.
               </p>
@@ -94,7 +94,7 @@ export const MobileProcessSteps = () => {
                     alt=""
                     className="box-border caret-transparent h-[50px] max-w-full min-h-auto min-w-auto object-cover w-[50px] md:min-h-0 md:min-w-0"
                   />
-                  <div className="box-border caret-transparent gap-x-3 flex flex-col h-[23px] min-h-auto min-w-auto gap-y-3 overflow-hidden md:min-h-0 md:min-w-0">
+                  {/*<div className="box-border caret-transparent gap-x-3 flex flex-col h-[23px] min-h-auto min-w-auto gap-y-3 overflow-hidden md:min-h-0 md:min-w-0">
                     <div className="relative items-center box-border caret-transparent flex h-25px-border min-h-auto min-w-auto text-left md:min-h-0 md:min-w-0">
                       <div className="text-white text-2xl box-border caret-transparent leading-[38.4px] min-h-auto min-w-auto md:min-h-0 md:min-w-0">
                         Hook
@@ -120,7 +120,7 @@ export const MobileProcessSteps = () => {
                         Hook
                       </div>
                     </div>
-                  </div>
+                  </div>*/}
                   <div className="bg-white box-border caret-transparent h-[50px] min-h-auto min-w-auto w-px md:min-h-0 md:min-w-0"></div>
                 </div>
                 <img
@@ -150,13 +150,13 @@ export const MobileProcessSteps = () => {
           </div>
         </div>
       </div>
-      <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 md:[align-items:normal] md:justify-normal md:min-h-0 md:min-w-0">
+      <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 md:items-center md:justify-normal md:min-h-0 md:min-w-0">
         <div className="text-white text-sm items-center bg-[linear-gradient(rgb(24,25,41),rgb(2,2,5))] shadow-[rgba(86,86,229,0.2)_0px_0px_45.1px_0px] box-border caret-transparent flex h-10 justify-center leading-[22.4px] min-h-auto min-w-auto w-10 border border-gray-800 ml-0 mt-0 p-2 rounded-[100px] border-solid md:text-lg md:h-[70px] md:leading-[28.8px] md:ml-[-5px] md:min-h-0 md:min-w-0 md:w-[70px] md:mt-10 md:p-0">
           03
         </div>
-        <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-start md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
+        <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-center md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
           <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-start">
-            <div className="items-center box-border caret-transparent gap-x-[17px] flex flex-row justify-start gap-y-[17px] text-center md:items-start md:gap-x-[21px] md:flex-col md:justify-between md:gap-y-[21px] md:text-start">
+            <div className="items-center box-border caret-transparent gap-x-[17px] flex flex-row justify-start gap-y-[17px] text-center md:items-center md:gap-x-[21px] md:flex-col md:justify-between md:gap-y-[21px] md:text-start">
               <div className="text-xs bg-indigo-600 shadow-[rgba(0,0,0,0.12)_0px_4.433px_8.865px_0px] box-border caret-transparent hidden tracking-[-0.569px] leading-[18.6px] text-center uppercase px-[13px] py-2 rounded-[8.8px] md:text-[14.235px] md:flex md:leading-[22.0643px] md:text-start">
                 <div className="text-xs box-border caret-transparent leading-[18.6px] text-center md:text-[14.235px] md:leading-[22.0643px] md:text-start">
                   editing
@@ -167,8 +167,8 @@ export const MobileProcessSteps = () => {
               </h3>
             </div>
           </div>
-          <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-start">
-            <p className="text-white/50 box-border caret-transparent leading-[20.58px] max-w-[238px] text-center w-full mb-2.5 md:text-start">
+          <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-center">
+            <p className="text-white/50 box-border caret-transparent leading-[20.58px] max-w-[238px] text-center w-full mb-2.5">
               Generate views and sales with our expert team, who have worked
               with the biggest creators.
             </p>
@@ -206,14 +206,14 @@ export const MobileProcessSteps = () => {
           </div>
         </div>
       </div>
-      <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 md:[align-items:normal] md:justify-normal md:min-h-0 md:min-w-0">
+      <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 md:items-center md:justify-normal md:min-h-0 md:min-w-0">
         <div className="text-white text-sm items-center bg-[linear-gradient(rgb(24,25,41),rgb(2,2,5))] shadow-[rgba(86,86,229,0.2)_0px_0px_45.1px_0px] box-border caret-transparent flex h-10 justify-center leading-[22.4px] min-h-auto min-w-auto w-10 border border-gray-800 ml-0 mt-0 p-2 rounded-[100px] border-solid md:text-lg md:h-[70px] md:leading-[28.8px] md:ml-[-5px] md:min-h-0 md:min-w-0 md:w-[70px] md:mt-10 md:p-0">
           04
         </div>
-        <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-start md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
+        <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-center md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
           <div className="items-center bg-transparent bg-[radial-gradient(circle_at_50%_0%,rgba(23,23,39,0.38),rgb(9,9,9)_100%,rgb(255,255,255))] box-border caret-transparent gap-x-[15px] flex flex-col justify-end min-h-auto min-w-auto gap-y-[15px] text-center border border-zinc-900 ml-7 mb-5 p-5 rounded-[20px] border-solid md:[align-items:normal] md:bg-transparent md:bg-none md:gap-x-[normal] md:block md:flex-row md:justify-normal md:min-h-0 md:min-w-0 md:gap-y-[normal] md:text-start md:ml-0 md:mb-0 md:p-0 md:rounded-none md:border-0 md:border-none md:border-white/60">
-            <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-start">
-              <div className="items-center box-border caret-transparent gap-x-[17px] flex flex-row justify-start gap-y-[17px] text-center md:items-start md:gap-x-[21px] md:flex-col md:justify-between md:gap-y-[21px] md:text-start">
+            <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row  md:min-h-0 md:min-w-0 md:text-start">
+              <div className="items-center box-border caret-transparent gap-x-[17px] flex flex-row justify-start gap-y-[17px] text-center md:items-center md:gap-x-[21px] md:flex-col md:justify-between md:gap-y-[21px] md:text-start">
                 <div className="text-xs bg-indigo-600 shadow-[rgba(0,0,0,0.12)_0px_4.433px_8.865px_0px] box-border caret-transparent hidden tracking-[-0.569px] leading-[18.6px] text-center uppercase px-[13px] py-2 rounded-[8.8px] md:text-[14.235px] md:flex md:leading-[22.0643px] md:text-start">
                   <div className="text-xs box-border caret-transparent leading-[18.6px] text-center md:text-[14.235px] md:leading-[22.0643px] md:text-start">
                     Thumbnail
@@ -224,8 +224,8 @@ export const MobileProcessSteps = () => {
                 </h3>
               </div>
             </div>
-            <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-start">
-              <p className="text-white/50 box-border caret-transparent leading-[20.58px] max-w-[238px] text-center w-full mb-2.5 md:text-start">
+            <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-center">
+              <p className="text-white/50 box-border caret-transparent leading-[20.58px] max-w-[238px] md:max-w-full text-center w-full mb-2.5 ">
                 Generate views and sales with our expert  team, who have worked
                 with the biggest creators.
               </p>
@@ -244,7 +244,7 @@ export const MobileProcessSteps = () => {
               <img
                 src="https://c.animaapp.com/mih7w1om2KrHan/assets/68aab8c5bd9a46b617d22132_image_2_cmp.avif"
                 alt=""
-                className="relative box-border caret-transparent h-auto max-h-none max-w-[273.75px] min-h-auto min-w-auto object-contain rotate-[-12.000012571476546deg] w-full z-1 rounded-[15px] md:h-[250px] md:max-h-[250px] md:max-w-full md:min-h-0 md:min-w-0 md:object-cover md:transform-none md:rounded-[20px]"
+                className="relative box-border  caret-transparent h-auto max-h-none max-w-[273.75px] min-h-auto min-w-auto object-contain rotate-[-12.000012571476546deg] w-full z-1 rounded-[15px] md:h-[250px] md:max-h-[250px] md:max-w-full md:min-h-0 md:min-w-0 md:object-cover md:transform-none md:rounded-[20px]"
               />
               <img
                 src="https://c.animaapp.com/mih7w1om2KrHan/assets/67b5dd3557ed8e973faed181_03.avif"
@@ -261,14 +261,14 @@ export const MobileProcessSteps = () => {
           </div>
         </div>
       </div>
-      <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 md:[align-items:normal] md:justify-normal md:min-h-0 md:min-w-0">
-        <div className="text-white text-sm items-center bg-[linear-gradient(rgb(24,25,41),rgb(2,2,5))] shadow-[rgba(86,86,229,0.2)_0px_0px_45.1px_0px] box-border caret-transparent flex h-10 justify-center leading-[22.4px] min-h-auto min-w-auto w-10 border border-gray-800 ml-0 mt-0 p-2 rounded-[100px] border-solid md:text-lg md:h-[70px] md:leading-[28.8px] md:ml-[-5px] md:min-h-0 md:min-w-0 md:w-[70px] md:mt-10 md:p-0">
+      <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 md:items-center md:justify-normal md:min-h-0 md:min-w-0">
+        <div className="text-white text-sm items-center bg-[linear-gradient(rgb(24,25,41),rgb(2,2,5))] shadow-[rgba(86,86,229,0.2)_0px_0px_45.1px_0px] box-border caret-transparent flex h-10 justify-center leading-[22.4px] min-h-auto min-w-auto w-10 border border-gray-800 ml-0 mt-0 p-2 rounded-[100px] border-solid md:text-lg md:h-[70px] md:leading-[28.8px] md:ml-[-5px] md:min-h-0 md:min-w-0 md:w-[70px] md:mt-50 md:p-0">
           05
         </div>
-        <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-start md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
+        <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-center md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
           <div className="items-center bg-transparent bg-[radial-gradient(circle_at_50%_0%,rgba(23,23,39,0.38),rgb(9,9,9)_100%,rgb(255,255,255))] box-border caret-transparent gap-x-[15px] flex flex-col justify-end min-h-auto min-w-auto gap-y-[15px] text-center border border-zinc-900 ml-7 mb-5 p-5 rounded-[20px] border-solid md:[align-items:normal] md:bg-transparent md:bg-none md:gap-x-[normal] md:block md:flex-row md:justify-normal md:min-h-0 md:min-w-0 md:gap-y-[normal] md:text-start md:ml-0 md:mb-0 md:p-0 md:rounded-none md:border-0 md:border-none md:border-white/60">
             <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-start">
-              <div className="items-center box-border caret-transparent gap-x-[17px] flex flex-row justify-start gap-y-[17px] text-center md:items-start md:gap-x-[21px] md:flex-col md:justify-between md:gap-y-[21px] md:text-start">
+              <div className="items-center box-border caret-transparent gap-x-[17px] flex flex-row justify-start gap-y-[17px] text-center md:items-center md:gap-x-[21px] md:flex-col md:justify-between md:gap-y-[21px] md:text-start">
                 <div className="text-xs bg-indigo-600 shadow-[rgba(0,0,0,0.12)_0px_4.433px_8.865px_0px] box-border caret-transparent hidden tracking-[-0.569px] leading-[18.6px] text-center uppercase px-[13px] py-2 rounded-[8.8px] md:text-[14.235px] md:flex md:leading-[22.0643px] md:text-start">
                   <div className="text-xs box-border caret-transparent leading-[18.6px] text-center md:text-[14.235px] md:leading-[22.0643px] md:text-start">
                     post
@@ -279,8 +279,8 @@ export const MobileProcessSteps = () => {
                 </h3>
               </div>
             </div>
-            <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-start">
-              <p className="text-white/50 box-border caret-transparent leading-[20.58px] max-w-[238px] text-center w-full mb-2.5 md:text-start">
+            <div className="items-start box-border caret-transparent flex-col justify-center min-h-auto min-w-auto text-center md:items-center md:flex-row md:min-h-0 md:min-w-0 md:text-center">
+              <p className="text-white/50 box-border caret-transparent leading-[20.58px] max-w-[238px] text-center w-full mb-2.5">
                 Generate views and sales with our expert  team, who have worked
                 with the biggest creators.
               </p>
