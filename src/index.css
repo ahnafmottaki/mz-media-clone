@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+@theme {
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Syne", sans-serif;
+  --color-primary-black: #090909;
+  --color-paragraph-text-color: #fff9;
+  --color-white: white;
+  --color-transparent: #fff0;
+  --color-all-border: #ffffff0f;
+  --color-secondary-black: #111;
+  --color-secondary--card-bg-color: #ffffff0f;
+  --color-primary-blue: #273fb7;
+  --color-light-grey: #ffffff38;
+  --color-20px-img-border-all: 20px;
+  --color-25px-border: 25px;
+  --color-grey-heading-color: #ffffff80;
+  --color-navy-s-border: #31313c;
+  --color-phone-redius: 15px;
+  --color-title-gradient-grey: #9eadb9;
+  --color-gray-text: #8d92a4;
+  --color-navy-blue-gradient: #181929;
+  --spacing-20px-img-border-all: 20px;
+  --spacing-25px-border: 25px;
+  --animate-slide: slide 10s 8s linear infinite;
+}
+
+html {
+  @apply font-primary;
+}
+
+body {
+  @apply bg-primary-black text-paragraph-text-color font-primary text-sm font-normal leading-[1.2];
+}
+
+.container {
+  @apply z-999 w-full max-w-[1000px] ml-auto mr-auto p-7 relative;
+}
+
+.brand {
+  @apply w-full max-w-[150px];
+}
+
+.button {
+  @apply transition-all duration-200 font-medium text-sm items-center justify-start rounded-xl border border-[#ffffff0a] capitalize text-center text-white bg-primary-blue gap-[15px];
+}
+
+.center-text {
+  @apply z-1 text-center flex relative items-center justify-center flex-row;
+}
+
+h1 {
+  @apply text-white mt-5 mb-[10px] font-secondary font-semibold leading-[1.2];
+}
+
+.grey-heading {
+  @apply text-grey-heading-color bg-clip-text bg-linear-to-r from-[#898e99] to-paragraph-text-color;
+}
+
+.inline-text {
+  @apply inline-block;
+}
+
+.button {
+  @apply flex transition-all duration-200 font-medium text-sm py-[14px] px-25px-border items-center justify-start rounded-xl border border-[#ffffff0a] capitalize text-center text-white bg-linear-to-t from-transparent via-2%  via-[#98a3ff33] to-60% to-primary-blue bg-primary-blue gap-[15px];
+}
+
+.global-padding {
+  @apply py-15;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-30%);
+  }
+}
+
+.radial-gradient {
+  background-image: radial-gradient(
+    circle farthest-corner at 50% 100%,
+    #111,
+    #111 42%,
+    #090909
+  );
+}
