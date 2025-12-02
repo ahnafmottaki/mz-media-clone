@@ -2,7 +2,7 @@ export const MobileProcessSteps = () => {
   return (
     <div className="box-border caret-transparent gap-x-[60px] flex flex-col min-h-auto min-w-auto gap-y-[60px] mt-5 md:gap-x-[50px] xl:hidden md:min-h-0 md:min-w-0 md:gap-y-[50px] md:mt-0">
       <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 mb-5 md:items-center md:justify-normal md:min-h-0 md:min-w-0 md:mb-0">
-        <div className="text-white text-sm items-center bg-[linear-gradient(rgb(24,25,41),rgb(2,2,5))] shadow-[rgba(86,86,229,0.2)_0px_0px_45.1px_0px] box-border caret-transparent flex h-10 justify-center leading-[22.4px] min-h-auto min-w-auto w-10 border border-gray-800 ml-0 mt-0 p-2 rounded-[100px] border-solid md:text-lg md:h-[70px] md:leading-[28.8px] md:ml-[-5px] md:min-h-0 md:min-w-0 md:w-[70px] md:mt-10 md:p-0">
+        <div className="text-white text-sm items-center bg-[linear-gradient(rgb(24,25,41),rgb(2,2,5))] shadow-[rgba(86,86,229,0.2)_0px_0px_45.1px_0px] box-border caret-transparent flex h-10 justify-center leading-[22.4px] min-h-auto min-w-auto w-10 border border-gray-800 ml-0 mt-10 p-2 rounded-[100px] border-solid md:text-lg md:h-[70px] md:leading-[28.8px] md:ml-[-5px] md:min-h-0 md:min-w-0 md:w-[70px] md:mt-12 md:p-0">
           01
         </div>
         <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-center md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
@@ -262,7 +262,7 @@ export const MobileProcessSteps = () => {
         </div>
       </div>
       <div className="relative items-start box-border caret-transparent gap-x-3 flex flex-col justify-between min-h-auto min-w-auto gap-y-3 z-3 md:items-center md:justify-normal md:min-h-0 md:min-w-0">
-        <div className="text-white text-sm items-center bg-[linear-gradient(rgb(24,25,41),rgb(2,2,5))] shadow-[rgba(86,86,229,0.2)_0px_0px_45.1px_0px] box-border caret-transparent flex h-10 justify-center leading-[22.4px] min-h-auto min-w-auto w-10 border border-gray-800 ml-0 mt-0 p-2 rounded-[100px] border-solid md:text-lg md:h-[70px] md:leading-[28.8px] md:ml-[-5px] md:min-h-0 md:min-w-0 md:w-[70px] md:mt-50 md:p-0">
+        <div className="text-white text-sm items-center bg-[linear-gradient(rgb(24,25,41),rgb(2,2,5))] shadow-[rgba(86,86,229,0.2)_0px_0px_45.1px_0px] box-border caret-transparent flex h-10 justify-center leading-[22.4px] min-h-auto min-w-auto w-10 border border-gray-800 ml-0 -mt-6 p-2 rounded-[100px] border-solid md:text-lg md:h-[70px] md:leading-[28.8px] md:ml-[-5px] md:min-h-0 md:min-w-0 md:w-[70px] md:mt-50 md:p-0">
           05
         </div>
         <div className="items-center box-border caret-transparent gap-x-1.5 flex flex-col justify-between mt-[-63px] max-w-full min-h-auto min-w-auto gap-y-1.5 text-center w-full py-0 rounded-[20px] md:items-center md:gap-x-[27px] md:max-w-[350px] md:min-h-0 md:min-w-0 md:gap-y-[27px] md:text-start md:mt-0 md:py-[30px]">
@@ -288,7 +288,8 @@ export const MobileProcessSteps = () => {
           </div>
         </div>
         <div className="relative items-start box-border caret-transparent gap-x-2.5 flex h-auto justify-center max-w-full min-h-auto min-w-auto gap-y-2.5 w-auto z-1 left-[10%] top-[0%] md:gap-x-0 md:h-[500px] md:justify-start md:min-h-0 md:min-w-0 md:gap-y-0 md:top-[-4%] md:w-[400px] md:left-auto">
-          <div className="relative items-center box-border caret-transparent flex justify-center min-h-auto min-w-auto top-[-34px] w-auto mt-[30px] left-[8%] md:min-h-0 md:min-w-[500px] md:w-[500px] md:mt-0 md:left-auto md:top-auto">
+          {/*min-h-auto min-w-auto w-auto */}
+          <div className="relative items-center box-border caret-transparent flex justify-center  top-[-34px] mt-[30px] left-[8%] min-h-0 min-w-[500px] w-[500px] md:mt-0 md:left-auto md:top-auto">
             <img
               src="https://c.animaapp.com/mih7w1om2KrHan/assets/67b5dd36b3452df31baf9345_Glow.avif"
               sizes="(max-width: 726px) 100vw, 726px"

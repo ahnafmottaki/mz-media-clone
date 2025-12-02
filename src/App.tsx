@@ -1,5 +1,4 @@
 import { CaseStudySection } from "./modules/CaseStudySection";
-import { ClientResultsSection } from "./modules/ClientResultSection";
 import { CTASection } from "./modules/CTASection";
 import { FAQSection } from "./modules/FAQSection";
 import { Footer } from "./modules/Footer";
@@ -26,7 +25,7 @@ export default function App() {
         <CaseStudySection />
         <ProcessSection />
         <ServicesSection />
-        <ClientResultsSection />
+        {/* <ClientResultsSection /> */}
         <FAQSection />
         <CTASection />
         <Footer />

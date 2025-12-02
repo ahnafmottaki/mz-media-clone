@@ -28,10 +28,10 @@ export const ProcessSection = () => {
             </div>
             <ProcessTimeline />
             <MobileProcessSteps />
-            <div className="content-between items-center box-border caret-transparent gap-x-[15px] flex flex-col justify-center gap-y-[15px] w-full pb-[15px] md:flex-row md:w-auto md:pb-[30px]">
+            <div className="content-between items-center box-border caret-transparent gap-x-[15px] flex flex-col justify-center gap-y-[15px] w-full pb-[15px] md:flex-row md:w-auto  md:pb-[30px]">
               <a
                 href="#book-a-call"
-                className="text-white font-medium items-center bg-blue-800 bg-[linear-gradient(rgba(152,163,255,0.2)_2%,rgb(39,63,183)_60%)] box-border caret-transparent gap-x-[15px] flex justify-center max-w-full gap-y-[15px] text-center capitalize w-full border px-25px-border py-3.5 rounded-xl border-solid border-white/0 md:justify-start md:w-auto hover:shadow-[rgba(0,0,0,0.2)_0px_0px_0px_5px_inset]"
+                className="text-white font-medium items-center bg-blue-800 bg-[linear-gradient(rgba(152,163,255,0.2)_2%,rgb(39,63,183)_60%)] box-border caret-transparent gap-x-[15px] flex justify-center max-w-full gap-y-[15px] text-center capitalize w-auto border px-25px-border py-3.5 rounded-xl border-solid border-white/0 md:justify-start md:w-auto hover:shadow-[rgba(0,0,0,0.2)_0px_0px_0px_5px_inset]"
               >
                 <div className="box-border caret-transparent">
                   Book a 30-min call

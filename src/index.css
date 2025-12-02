@@ -62,7 +62,7 @@ h1 {
 }
 
 .button {
-  @apply flex transition-all duration-200 font-medium text-sm py-[14px] px-25px-border items-center justify-start rounded-xl border border-[#ffffff0a] capitalize text-center text-white bg-linear-to-t from-transparent via-2%  via-[#98a3ff33] to-60% to-primary-blue bg-primary-blue gap-[15px];
+  @apply flex transition-all duration-200 font-medium text-sm py-3.5 px-25px-border items-center justify-start rounded-xl border border-[#ffffff0a] capitalize text-center text-white bg-linear-to-t from-transparent via-2%  via-[#98a3ff33] to-60% to-primary-blue bg-primary-blue gap-[15px];
 }
 
 .global-padding {

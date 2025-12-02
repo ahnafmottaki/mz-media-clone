@@ -2,7 +2,7 @@ import { ProcessStep } from "./ProcessStep";
 
 export const ProcessTimeline = () => {
   return (
-    <div className="relative box-border caret-transparent gap-x-[60px] hidden auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto_auto] justify-between min-h-0 min-w-0 gap-y-[60px] w-full pt-0 md:gap-x-20 xl:flex bg-red-900 md:auto-cols-auto md:grid-cols-none md:grid-rows-none md:min-h-auto md:min-w-auto md:gap-y-20 md:pt-[60px]">
+    <div className="relative box-border caret-transparent gap-x-[60px] hidden auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto_auto] justify-between min-h-0 min-w-0 gap-y-[60px] w-full pt-0 md:gap-x-20 xl:flex  md:auto-cols-auto md:grid-cols-none md:grid-rows-none md:min-h-auto md:min-w-auto md:gap-y-20 md:pt-[60px]">
       {/*left side process and steps*/}
       <div className="items-start box-border caret-transparent gap-x-[60px] flex flex-col justify-start min-h-0 min-w-0 gap-y-[60px] md:gap-x-[140px] md:min-h-auto md:min-w-auto md:gap-y-[140px]">
         <ProcessStep
